@@ -1,3 +1,5 @@
+# code 3.5
+
 N = int(input())
 W = int(input())
 

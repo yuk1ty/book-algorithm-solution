@@ -1,3 +1,5 @@
+# code 3.2
+
 N = int(input())
 v = int(input())
 a = [int(input()) for _ in range(N)]

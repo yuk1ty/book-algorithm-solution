@@ -1,3 +1,5 @@
+# code 3.4
+
 INF = 20_000_000
 
 N = int(input())
