@@ -13,7 +13,7 @@
 - [ ] chapter2
 - [x] chapter3
 - [x] chapter4
-- [ ] chapter5
+- [x] chapter5
 - [ ] chapter6
 - [ ] chapter7
 - [ ] chapter8
