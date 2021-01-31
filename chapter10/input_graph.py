@@ -1,7 +1,5 @@
 # code 10.3
 
-from typing import List
-
 N, M = map(int, input().split())
 G = [[] for _ in range(N)]
 
