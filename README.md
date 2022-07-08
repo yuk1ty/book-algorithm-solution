@@ -10,16 +10,15 @@
 
 ## 進捗
 
-- [ ] chapter2
 - [x] chapter3
 - [x] chapter4
 - [x] chapter5
 - [x] chapter6
 - [x] chapter7
-- [ ] chapter8
-- [ ] chapter9
-- [ ] chapter10
-- [ ] chapter11
+- [x] chapter8
+- [x] chapter9
+- [x] chapter10
+- [x] chapter11
 - [ ] chapter12
 - [ ] chapter13
 - [ ] chapter14
