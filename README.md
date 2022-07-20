@@ -19,8 +19,8 @@
 - [x] chapter9
 - [x] chapter10
 - [x] chapter11
-- [ ] chapter12
-- [ ] chapter13
+- [x] chapter12
+- [x] chapter13
 - [ ] chapter14
 - [ ] chapter15
 - [ ] chapter16
