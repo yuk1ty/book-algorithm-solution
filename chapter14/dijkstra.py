@@ -51,8 +51,8 @@ for iter in range(N):
 
     used[min_v] = True
 
-	for v in range(N):
-		if dist[v] < INF:
-			print(dist[v])
-		else:
-			print("INF")
+    for v in range(N):
+        if dist[v] < INF:
+            print(dist[v])
+        else:
+            print("INF")
