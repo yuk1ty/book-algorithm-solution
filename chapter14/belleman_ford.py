@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import math
-from typing import List, TypeVar
+from typing import List
 
 
 INF = math.inf
