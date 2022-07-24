@@ -21,7 +21,7 @@
 - [x] chapter11
 - [x] chapter12
 - [x] chapter13
-- [ ] chapter14
+- [x] chapter14
 - [ ] chapter15
 - [ ] chapter16
 - [ ] chapter17
