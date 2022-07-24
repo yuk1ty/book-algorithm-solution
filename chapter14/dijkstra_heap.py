@@ -1,7 +1,9 @@
-# code 14.3
+# code 14.4
 from dataclasses import dataclass
+import io
 import math
 from typing import List
+from queue import PriorityQueue
 
 
 INF = math.inf
@@ -32,28 +34,26 @@ for _ in range(M):
     a, b, w = map(int, input().split())
     G[a].append(Edge(b, w))
 
-used = [False] * N
 dist = [INF] * N
+dist[s] = 0
 
-for iter in range(N):
-    min_dist = INF
-    min_v = -1
+que = PriorityQueue()
+que.put((dist[s], s))
 
-    for v in range(N):
-        if not used[v] and dist[v] < min_dist:
-            min_dist = dist[v]
-            min_v = v
+while que.not_empty:
+    poped = que.get()
+    v = poped[1]
+    d = poped[0]
 
-    if min_v == -1:
-        break
+    if d > dist[v]:
+        continue
 
-    for e in G[min_v]:
-        chmin(dist[e.to], dist[min_v] + e.w)
+    for e in G[v]:
+        if chmin(dist[e.to], dist[v] + e.w):
+            que.put((dist[e.to], e.to))
 
-    used[min_v] = True
-
-    for v in range(N):
-        if dist[v] < INF:
-            print(dist[v])
-        else:
-            print("INF")
+for v in range(N):
+    if dist[v] < INF:
+        print(dist[v])
+    else:
+        print("INF")
