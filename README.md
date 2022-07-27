@@ -25,4 +25,6 @@
 - [x] chapter15
 - [x] chapter16
 - [x] chapter17
-- [ ] chapter18
+- [x] chapter18
+
+13章以降の動作確認が甘い可能性があります。
